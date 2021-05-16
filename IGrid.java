@@ -70,19 +70,19 @@ public interface IGrid {
 	public void addFieldMS2(Field field);
 	
 	/**
-	 * adds a construction site to the grid witch is determine
+	 * adds a construction site to the grid  determined
 	 * by the prim algorithm
 	 */
 	public int addConstructionSite();
 	
 	
 	/**
-	 * returns the undirected graph witch represented the pipe costs
+	 * returns the undirected graph which represents the pipe costs
 	 * @return undirected Graph
 	 */
 	public UndirectedGraphMatrix getUndirGraph(); 
 	/**
-	 * returns the directed graph witch represented the pipe costs
+	 * returns the directed graph which represents the pipe costs
 	 * @return directed Graph
 	 */
 	public DirectedGraph getDirGraph();
